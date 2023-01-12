@@ -1,31 +1,51 @@
 footer {
     display: flex;
+    background-color: black;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
 }
-
-.apresentacao-marca {
-    flex: 1;
-}
-
-.contato-infos {
-    flex: 1;
+.footer-box-info {
     text-align: center;
     font-family: 'Bebas Neue', cursive;
     font-size: 20px;
     margin-top: 20px;
+    border-right:  1px solid rgba(139, 138, 138, 0.119);
 }
-.contato-infos nav ul li {
+.footer-box-info nav ul li {
     margin: 20px;
+    
 }
-.contato-infos nav ul li a {
+.footer-box-info nav ul li a {
     padding: 20px;
+    margin: 20px;
+    color: white;
+    font-style: none;
+    text-decoration: none;
 }
 
-.apresentacao-marca  img {
-    width: 100%;
+.apresentacao-marca img {
+    width: 50%;
+    max-width: 300px;
 }
-
+h1{
+    color: #ffab00;
+    margin-bottom: 35px;
+}
+a :hover{
+    color: rgb(255, 208, 0);
+    transition: 0.5s;
+    text-shadow: 1px 1px 12px #ffaa0095;
+}
 @media (max-width: 920px) {
     footer {
         display: block;
+    }
+    h1{
+        border-top: 1px solid rgba(139, 138, 138, 0.318);
+        padding-top: 12px;
+    }
+    .apresentacao-marca {
+        text-align: center;
     }
 }
