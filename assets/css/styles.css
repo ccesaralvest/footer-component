@@ -1,6 +1,6 @@
 footer {
     display: flex;
-    background-color: black;
+    background-color: white;
     padding: 10px;
     align-items: center;
     justify-content: center;
@@ -19,7 +19,7 @@ footer {
 .footer-box-info nav ul li a {
     padding: 20px;
     margin: 20px;
-    color: white;
+    color: rgb(0, 0, 0);
     font-style: none;
     text-decoration: none;
 }
@@ -29,13 +29,13 @@ footer {
     max-width: 300px;
 }
 h1{
-    color: #ffab00;
+    color: #0F780F;
     margin-bottom: 35px;
 }
 a :hover{
-    color: rgb(255, 208, 0);
+    color: #0F780F
     transition: 0.5s;
-    text-shadow: 1px 1px 12px #ffaa0095;
+    text-shadow: 1px 1px 12px #0F780F;
 }
 @media (max-width: 920px) {
     footer {
