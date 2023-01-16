@@ -1,6 +1,6 @@
 footer {
     display: flex;
-    background-color: white;
+    background-color: #04449c;
     padding: 10px;
     align-items: center;
     justify-content: center;
@@ -10,7 +10,7 @@ footer {
     font-family: 'Bebas Neue', cursive;
     font-size: 20px;
     margin-top: 20px;
-    border-right:  1px solid rgba(139, 138, 138, 0.119);
+    border-right:  1px solid rgba(255, 255, 255, 0.187);
 }
 .footer-box-info nav ul li {
     margin: 20px;
@@ -19,7 +19,7 @@ footer {
 .footer-box-info nav ul li a {
     padding: 20px;
     margin: 20px;
-    color: rgb(0, 0, 0);
+    color: #fff;
     font-style: none;
     text-decoration: none;
 }
@@ -29,14 +29,13 @@ footer {
     max-width: 300px;
 }
 h1{
-    color: #0F780F;
+    color: #fff;
     margin-bottom: 35px;
 }
 a :hover{
-    color: #0F780F;
     transition: 0.5s;
-    text-shadow: 1px 1px 12px #0F780F;
 }
+
 @media (max-width: 920px) {
     footer {
         display: block;
